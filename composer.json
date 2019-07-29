@@ -1,0 +1,19 @@
+{
+    "name": "rose\/rosejunit",
+    "description": "this is a danyuan ceshi",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rose",
+            "email": "rosehtx@163.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rose\\Rosejunit\\": "src"
+        }
+    }
+}
