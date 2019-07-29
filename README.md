@@ -1,4 +1,4 @@
-#rose/junit-laravel
+#roseinory/junit-laravel
 
 #对于框架的要求
 
@@ -12,6 +12,5 @@ composer require 'rose/rosejunit'
 路径 Rose\Rosejunit\Providers\JunitServiceProvider::class
 
 #解释路由
-<?php
 Route::get('/', 'JunitController@index');
 Route::post('/', 'JunitController@store')->name('sjunit.store');
